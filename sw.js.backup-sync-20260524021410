@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Lety Nails
 
-const CACHE_NAME = 'letynaisl-v29';
+const CACHE_NAME = 'letynaisl-v25';
 const urlsToCache = [
   '/letynaisl/',
   '/letynaisl/index.html',
