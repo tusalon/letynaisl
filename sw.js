@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Lety Nails
 
-const CACHE_NAME = 'letynaisl-v29';
+const CACHE_NAME = 'letynaisl-v47';
 const urlsToCache = [
   '/letynaisl/',
   '/letynaisl/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/letynaisl/icons/icon-152x152.png',
   '/letynaisl/icons/icon-192x192.png',
   '/letynaisl/icons/icon-384x384.png',
-  '/letynaisl/icons/icon-512x512.png'
+  '/letynaisl/icons/icon-512x512.png',
+  '/letynaisl/vendor/react.production.min.js',
+  '/letynaisl/vendor/react-dom.production.min.js',
+  '/letynaisl/vendor/babel.min.js',
+  '/letynaisl/vendor/bcrypt.min.js',
+  '/letynaisl/vendor/tailwind-browser.js',
+  '/letynaisl/vendor/lucide/lucide.css',
+  '/letynaisl/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
